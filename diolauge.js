@@ -1,4 +1,40 @@
+const ui = document.createElement("div");
 
+ui.innerHTML = `
+<h1>Bee Swarm Mod Loaded</h1>
+
+<p>
+Use Black Bear quests for boosted rewards.
+Complete the second quest for items and more.
+</p>
+
+<p style="color:#ffcc00; font-size:14px; margin-top:15px;">
+⚠ Warning: some items might not show up in your inv because your to early in the game so buy stuff from the shops and claim/buy eggs.
+</p>
+
+<button id="closeModUI">Close</button>
+`;
+
+ui.style.position = "fixed";
+ui.style.top = "50%";
+ui.style.left = "50%";
+ui.style.transform = "translate(-50%, -50%)";
+
+ui.style.background = "#1e1e1e";
+ui.style.color = "white";
+ui.style.padding = "25px";
+ui.style.borderRadius = "15px";
+ui.style.zIndex = "999999";
+
+ui.style.textAlign = "center";
+ui.style.fontFamily = "Arial";
+
+document.body.appendChild(ui);
+
+document.getElementById("closeModUI").onclick = () => ui.remove();
+
+
+// ORIGINAL GAME CODE STARTS BELOW
 window.mulberry32=function(a){
 
     let ret=function(){
