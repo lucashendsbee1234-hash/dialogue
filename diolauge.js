@@ -75,7 +75,7 @@ Complete the second quest for items and more.
 </p>
 
 <p style="color:#ffcc00; font-size:14px; margin-top:15px;">
-⚠ Warning: Modded saves may break or reset after game updates.
+⚠ Warning: some items may not show up in your inv. go to the shop and buy stuff, also some eggs and later on items wont show up until you need to use them so find where you need to use them and it will work.
 </p>
 
 <button id="closeModUI">Close</button>
